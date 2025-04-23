@@ -1,4 +1,4 @@
-# 💻 My CV Blog – Alberto Jesús García-Márquez Varela
+# 💻 My CV Blog 
 
 Bienvenido a mi blog personal y currículum online, desarrollado con **Python**, usando **Flask** y **Jinja2**. Este proyecto tiene como objetivo presentar de forma clara y accesible mi experiencia profesional, formación académica, certificaciones y proyectos destacados.
 
