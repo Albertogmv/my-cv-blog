@@ -1,0 +1,86 @@
+[
+    {
+      "empresa": "Mnemo",
+      "ubicacion": "Madrid, España",
+      "puesto": "Software Engineer",
+      "periodo": "01/2023 - 02/2025",
+      "descripcion": [
+        "Desarrollo de APIs REST con Java (Spring Boot) y Python (FastAPI/Django): Experiencia en el diseño, desarrollo y mantenimiento de APIs escalables.",
+        "Desarrollo Frontend: Habilidades con Angular, TypeScript y Node.js, con enfoque en la experiencia del usuario y la seguridad.",
+        "Pruebas unitarias y funcionales: Experiencia en la creación de tests unitarios con JUnit 5 y Pytest, y tests funcionales con Cucumber.",
+        "Documentación con Swagger: Experiencia en la creación de documentación de APIs utilizando Swagger (archivos .yml).",
+        "Automatización con Ansible: Automatización de procesos de construcción, pruebas, auditorías y despliegues para mejorar la eficiencia.",
+        "CI/CD con Jenkins: Gestión de procesos de integración y entrega continua",
+        "Herramientas de calidad y seguridad: Familiaridad con SonarQube y Dependency-Track para análisis de vulnerabilidades, y con Elasticsearch para capacidades avanzadas de búsqueda y análisis",
+        "Monitoring & Logging: Prometheus, Grafana, or ELK stack para observabilidad del sistema.",
+        "Gestión de proyectos con Jira: Experiencia en el seguimiento de tareas y la colaboración en equipo",
+        "Control de versiones: Competencia con SVN y Git para proyectos colaborativos.",
+        "Metodologías ágiles: Uso de Scrum en todas sus fases: planificación, definición de objetivos, ejecución de Sprints, reuniones diarias (Daily Standups) y retrospectivas."
+      ]
+    },
+    {
+      "empresa": "MEP-Projects",
+      "ubicacion": "Sevilla, España",
+      "puesto": "Lead Software Engineer",
+      "periodo": "12/2020 - 12/2022",
+      "descripcion": [
+        "Desarrollo completo del ciclo de vida de soluciones software, desde el diseño, desarrollo e implementación, hasta la entrega y mantenimiento, asegurando alineación con los requerimientos del cliente.",
+        "Desarrollo de aplicaciones multiplataforma utilizando Unity y Vuforia, programadas en C#, con integración de APIs y uso de AWS para almacenamiento y gestión de modelos.",
+        "Diseño e integración de APIs REST utilizando Java (Spring Boot) y Python (FastAPI/Django).",
+        "Automatización de tareas y procesos con Python, incluyendo web scraping (BeautifulSoup, Selenium), manipulación de datos (Pandas) y lógica de backend.",
+        "Contribución a la mejora de procesos organizativos mediante herramientas digitales y automatización con Python. Desarrollé aplicaciones de escritorio para RRHH y el CEO de la empresa orientadas a la gestión de horas, costes y beneficios en proyectos. Además, creé un bot para Instagram que recomendaba publicaciones a empresas, basado en recopilaciones obtenidas mediante técnicas de web scraping sobre cuentas populares.",
+        "Aplicación de metodologías ágiles (Scrum) a lo largo de todo el ciclo de desarrollo.",
+        "Creación, configuración, alojamiento, mantenimiento y actualización de sitios web con WordPress.",
+        "Gestión de bases de datos con MySQL y lenguaje SQL.",
+        "Conocimientos básicos de diseño gráfico para interfaces web y de aplicaciones, incluyendo el uso de Figma para el prototipado de interfaces y flujos de usuario.",
+        "Soporte técnico y colaboración con compañeros de equipo.",
+        "Experiencia en trabajo remoto, con reuniones de coordinación semanales.",
+        "Conocimientos generales de redes e infraestructura."
+      ]
+    },
+    {
+      "empresa": "Universidad de Sevilla",
+      "ubicacion": "Sevilla, España",
+      "puesto": "Software Engineer (Técnico de Apoyo a la Investigación)",
+      "periodo": "12/2019 - 12/2020",
+      "descripcion": [
+        "Recopilación, limpieza y formateo de datos desde diversas fuentes para su posterior almacenamiento en una base de datos.",
+        "Web scraping (BeautifulSoup, Selenium), manipulación de datos (Pandas), y lógica de backend.",
+        "Gestión de bases de datos MySQL y lenguaje SQL.",
+        "Desarrollo utilizando lenguajes de programación y marcado: PHP, JavaScript, HTML y Python.",
+        "Diseño web utilizando JQuery, Bootstrap y CSS.",
+        "Gestión de servidores web con HTTP Apache.",
+        "Conocimientos básicos en manejo y gestión de servicios web.",
+        "Conocimiento en despliegue de aplicaciones web.",
+        "Conocimiento en seguridad web."
+      ]
+    },
+    {
+      "empresa": "Sopra Steria",
+      "ubicacion": "Sevilla, España",
+      "puesto": "QA Tester",
+      "periodo": "06/2018 - 03/2019",
+      "descripcion": [
+        "Diseño de casos de prueba funcionales",
+        "Ejecución de casos de prueba manuales y automatizados",
+        "Tareas de desarrollo para la automatización de procesos",
+        "Auditorías de seguridad a través de pruebas manuales y escáneres de seguridad",
+        "Uso de herramientas de gestión como HP Application Lifecycle Management o Jira",
+        "Uso de metodologías ágiles"
+      ]
+    },
+    {
+      "empresa": "Hospital Universitario Virgen del Rocío",
+      "ubicacion": "Sevilla, España",
+      "puesto": "Investigador (prácticas)",
+      "periodo": "04/2018 - 06/2018",
+      "descripcion": [
+        "Prácticas desarrolladas en el marco del proyecto financiado por el Instituto de Salud Carlos III llamado Sistema de Apoyo para el Tratamiento Sistémico y Dosificación de Radioterapia en pacientes con cáncer de pulmón.",
+        "Familiarización con los datos y aplicación de algoritmos de minería de datos en el entorno hospitalario.",
+        "Tareas relacionadas con el análisis de datos y el procesamiento de pacientes sometidos a tratamientos de quimioterapia.",
+        "Desarrollo de una plataforma WordPress para la gestión de contenido de diversos proyectos pertenecientes al grupo de innovación."
+
+      ]
+    }
+  ]
+  

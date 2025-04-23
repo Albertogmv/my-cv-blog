@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Proyectos{% endblock %}
+{% block content %}
+<h2 class="mb-4">Proyectos Destacados</h2>
+
+    {% for proyecto in projects %}
+    <div class="projects">
+        <h3>{{ proyecto.titulo }}</h3>
+        <p><strong>Rol:</strong> {{ proyecto.rol }}</p>
+        <p><strong>Fecha:</strong> {{ proyecto.fecha }}</p>
+        <p><strong>Ubicación:</strong> {{ proyecto.ubicacion }}</p>
+        <p><strong>Descripción:</strong> {{ proyecto.descripcion }}</p>
+    </div>
+    {% endfor %}
+
+{% endblock %}
