@@ -1,24 +1,60 @@
 [
     {
-        "titulo": "Proyecto de Apoyo al Tratamiento Sistémico y Dosificación de Radioterapia",
-        "rol": "Investigador en prácticas",
-        "fecha": "04/2018 - 06/2018",
-        "ubicacion": "Hospital Universitario Virgen del Rocío, Sevilla",
-        "descripcion": "Participación en proyecto financiado por el Instituto de Salud Carlos III enfocado en tratamientos para pacientes con cáncer de pulmón. Colaboración en el estudio y análisis de datos hospitalarios relacionados con pacientes sometidos a quimioterapia y radioterapia. Reestructuración de una base de datos previamente desorganizada en texto libre a un modelo relacional bien diseñado. Organización de los datos para permitir consultas más eficaces, facilitando estudios clínicos y seguimiento de pacientes. Aplicación de técnicas básicas de minería de datos en el entorno hospitalario. Desarrollo de una plataforma WordPress para la gestión centralizada de contenidos de diversos proyectos del grupo de innovación."
+        "titulo": "Desarrollo Fullstack para soluciones de ciberseguridad – INCIBE (a través de Mnemo)",
+        "rol": "Fullstack Developer",
+        "date": "01/2023 - 02/2025",
+        "company": "Mnemo, cliente INCIBE(Instituto de ciberseguridad de España).",
+        "description": "Trabajé como desarrollador fullstack en el ámbito de la ciberseguridad para el Instituto Nacional de Ciberseguridad (INCIBE), a través de la consultora Mnemo. Contribuí al diseño, desarrollo y mantenimiento de aplicaciones web seguras orientadas a la inteligencia de amenazas y la concienciación en ciberseguridad. Mi trabajo incluyó desarrollo backend con Java (Spring Boot, JPA, Hibernate) y Python (FastAPI), así como frontend con Angular y TypeScript. Implementé APIs RESTful, pipelines de CI/CD y participé en sprints ágiles, con fuerte enfoque en la calidad del código y la seguridad. El rol requería alta atención al detalle debido a la criticidad de los servicios ofrecidos al sector público y a la ciudadanía española.",
+        "technologies": ["Java, Spring Boot, JPA, Hibernate, Python, FastAPI, Angular, TypeScript, PostgreSQL, MongoDB, Elasticsearch, Prometheus, Grafana, Git, Jenkins, SonarQube, Docker, Scrum"]
+    },
+    {
+        "titulo": "Eat-Me: Aplicación de Menú con Realidad Aumentada",
+        "rol": "Application Designer and Developer",
+        "date": "12/2020 - 12/2022",
+        "company": "MEP-Projects",
+        "description": "Diseñé y desarrollé Eat-Me, una aplicación de realidad aumentada que permite a los restaurantes mostrar sus platos del menú de forma innovadora usando el móvil del cliente. Al apuntar a un marcador visual en la mesa, los comensales pueden ver modelos 3D realistas de los platos antes de realizar su pedido. El proyecto fue creado para el sector HORECA y recibió reconocimiento del Basque Culinary Center. La app fue publicada en Google Play y App Store, con servicios backend y alojamiento de modelos gestionados a través de AWS.",
+        "technologies": ["Unity", "C#", "Vuforia", "MongoDB", "AWS (S3)", "Realidad Aumentada", "Google Play", "App Store"]
+    },
+    {
+        "titulo": "PRISMA – Plataforma de Investigación Científica de la Universidad de Sevilla",
+        "rol": "Diseño y desarrollo de procesos de extracción automatizada y limpieza de datos con Python. Desarrollo web del frontend y apoyo en la integración de datos científicos del PDI.",
+        "date": "12/2019 - 12/2020",
+        "company": "Unidad de Bibliometría de la Universidad de Sevilla",
+        "description": "Colaboré en el desarrollo y mejora de la plataforma PRISMA (https://prisma.us.es/), una aplicación web que centraliza y organiza la producción científica del PDI (Personal Docente e Investigador) de la Universidad de Sevilla. Mis tareas incluyeron la recolección, limpieza y estructuración de datos desde múltiples fuentes y formatos (CSV, Excel, XML, JSON), así como la automatización de la extracción de datos adicionales mediante técnicas de web scraping con Python. Utilicé Pandas para preparar los datos de forma estructurada y facilitar su análisis posterior. También participé en la implementación del frontend utilizando HTML5, JavaScript y PHP, creando una interfaz accesible que permite consultar publicaciones, tesis, proyectos y métricas asociadas. Esta herramienta facilita la generación de CVs normalizados (CVN/CVA) y mejora la visibilidad de la producción científica en convocatorias como FECYT, Plan Nacional o Instituto Carlos III.",
+        "technologies": ["Python, Pandas, Web Scraping, HTML5, JavaScript, PHP, CSV, Excel, JSON, XML"]
+    },
+    {
+        "titulo": "Automatización registro horario para trabajadores",
+        "rol": "Application Designer and Developer",
+        "date": "03/2021 - 09/2022",
+        "company": "MEP-Projects",
+        "descriptcion": "Desarrollé un software que permite a las empresas llevar un registro preciso y automatizado de las horas trabajadas por cada empleado, tanto en modalidad presencial como en teletrabajo. La herramienta incluye funcionalidades para la imputación de horas a tareas o proyectos específicos, facilitando el seguimiento actualizado del centro de costes en función del tiempo dedicado por el equipo. Este sistema ayuda a mejorar la eficiencia operativa y el control financiero interno.",
+        "technologies": ["Python", "Tkinter", "SQLite", "Automatización", "Gestión de tiempos", "Cost Tracking", "Desktop App"]
+    },
+    {
+        "titulo": "Script de Automatización para Instagram y Gestión de Redes Sociales",
+        "rol": "Application Designer and Developer",
+        "date": "06/2021 - 12/2021",
+        "company": "MEP-Projects",
+        "descriptcion": "Herramienta innovadora diseñada como apoyo para los equipos de Community Management, automatizando la creación de contenido y la gestión de redes sociales en Instagram. El script genera contenido personalizado utilizando algoritmos avanzados que consideran datos demográficos y preferencias del público objetivo. Crea publicaciones, textos y propuestas visuales alineadas con la identidad de la marca. También incluye funcionalidades como mensajes automáticos, respuestas programadas y un calendario de publicaciones para una planificación eficiente.",
+        "technologies": ["Python", "tkinter", "Selenium", "BeautifulSoup", "Pandas", "API de Instagram", "Procesamiento de Lenguaje Natural (PLN)", "Librerías de programación de tareas (como APScheduler)", "JSON", "Scripts de automatización"]
+    },
+    {
+        "titulo": "Automatización de Pruebas Funcionales y Auditorías de Seguridad para Entidades Bancarias",
+        "rol": "Quality Analist Tester",
+        "date": "07/2018 - 03/2019",
+        "company": "Sopra Steria, SA",
+        "description": "Como QA Tester en Sopra Steria, participé en proyectos para distintas entidades bancarias, diseñando y ejecutando casos de prueba funcionales, desarrollando scripts de automatización de procesos, y realizando auditorías de seguridad mediante pruebas manuales y escaneos automatizados. Contribuí a garantizar la calidad del software, mejorar la eficiencia de las pruebas y detectar vulnerabilidades críticas para los sistemas bancarios.",
+        "technologies": ["HP ALM", "Jira", "Selenium", "Python", "TestLink", "Postman", "OWASP ZAP", "Metodologías ágiles (Scrum)", "Pruebas funcionales", "Automatización de pruebas", "Escáneres de seguridad"]
     },
     {
         "titulo": "Proyecto de Apoyo al Tratamiento Sistémico y Dosificación de Radioterapia",
         "rol": "Investigador en prácticas",
-        "fecha": "04/2018 - 06/2018",
-        "ubicacion": "Hospital Universitario Virgen del Rocío, Sevilla",
-        "descripcion": "Participación en proyecto financiado por el Instituto de Salud Carlos III enfocado en tratamientos para pacientes con cáncer de pulmón. Colaboración en el estudio y análisis de datos hospitalarios relacionados con pacientes sometidos a quimioterapia y radioterapia. Reestructuración de una base de datos previamente desorganizada en texto libre a un modelo relacional bien diseñado. Organización de los datos para permitir consultas más eficaces, facilitando estudios clínicos y seguimiento de pacientes. Aplicación de técnicas básicas de minería de datos en el entorno hospitalario. Desarrollo de una plataforma WordPress para la gestión centralizada de contenidos de diversos proyectos del grupo de innovación."
-    },
-    {
-        "titulo": "Proyecto de Apoyo al Tratamiento Sistémico y Dosificación de Radioterapia",
-        "rol": "Investigador en prácticas",
-        "fecha": "04/2018 - 06/2018",
-        "ubicacion": "Hospital Universitario Virgen del Rocío, Sevilla",
-        "descripcion": "Participación en proyecto financiado por el Instituto de Salud Carlos III enfocado en tratamientos para pacientes con cáncer de pulmón. Colaboración en el estudio y análisis de datos hospitalarios relacionados con pacientes sometidos a quimioterapia y radioterapia. Reestructuración de una base de datos previamente desorganizada en texto libre a un modelo relacional bien diseñado. Organización de los datos para permitir consultas más eficaces, facilitando estudios clínicos y seguimiento de pacientes. Aplicación de técnicas básicas de minería de datos en el entorno hospitalario. Desarrollo de una plataforma WordPress para la gestión centralizada de contenidos de diversos proyectos del grupo de innovación."
+        "date": "04/2018 - 06/2018",
+        "company": "Hospital Universitario Virgen del Rocío, Sevilla",
+        "description": "Participación en proyecto financiado por el Instituto de Salud Carlos III enfocado en tratamientos para pacientes con cáncer de pulmón. Colaboración en el estudio y análisis de datos hospitalarios relacionados con pacientes sometidos a quimioterapia y radioterapia. Reestructuración de una base de datos previamente desorganizada en texto libre a un modelo relacional bien diseñado. Organización de los datos para permitir consultas más eficaces, facilitando estudios clínicos y seguimiento de pacientes. Aplicación de técnicas básicas de minería de datos en el entorno hospitalario. Desarrollo de una plataforma WordPress para la gestión centralizada de contenidos de diversos proyectos del grupo de innovación.",
+        "technologies": ["MySQL", "SQL", "Python", "BeautifulSoup", "Selenium", "Pandas", "PHP", "HTML", "JavaScript", "CSS", "jQuery", "Bootstrap", "Apache HTTP Server", "WordPress", "Minería de datos"]
+
     }
 
 ]
