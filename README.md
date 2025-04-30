@@ -1,21 +1,25 @@
-# 💻 My CV Blog 
+# 💻 My CV Blog
 
-Bienvenido a mi blog personal y currículum online, desarrollado con **Python**, usando **Flask** y **Jinja2**. Este proyecto tiene como objetivo presentar de forma clara y accesible mi experiencia profesional, formación académica, certificaciones y proyectos destacados.
+Welcome to my personal blog and online resume, developed with **Python**, using **Flask** and **Jinja2**. This project aims to clearly and accessibly showcase my professional experience, academic background, certifications, and key projects.
 
-## 🌐 Descripción
+## 🌐 Description
 
-Este sitio web está diseñado como una plataforma simple y profesional donde los reclutadores y colaboradores puedan conocer mi perfil técnico y trayectoria. Incluye información organizada sobre:
+This website is designed as a simple and professional platform where recruiters and collaborators can learn about my technical profile and career path. It includes well-organized information on:
 
-- 🧠 **Sobre mí**  
-- 🛠️ **Experiencia profesional**  
-- 🎓 **Formación académica**  
-- 📜 **Certificaciones**  
-- 🚀 **Proyectos personales y colaborativos**  
-- 🌍 (Proximamente) **Multilenguaje**: Disponible en español e inglés
+- 🧠 **About Me**  
+- 🛠️ **Professional Experience**  
+- 🎓 **Academic Background**  
+- 📜 **Certifications**  
+- 🚀 **Personal and Collaborative Projects**  
+- 🌍 (Coming Soon) **Multilanguage**: Available in Spanish and English
 
-El sitio está desarrollado con:
+The site is built with:
 
-- **Python**
-- **Flask** como microframework web
-- **Jinja2** para renderizado de plantillas
-- **HTML5** + **Bootstrap 5** para el diseño responsive
+- **Python**  
+- **Flask** as the web microframework  
+- **Jinja2** for template rendering  
+- **HTML5** + **Bootstrap 5** for responsive design
+
+## 🚀 Deployment
+
+This blog is freely hosted on the platform [Render](https://render.com/), which allows GitHub repository synchronization and automatic deployment each time a push is made to the main branch.
