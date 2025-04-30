@@ -4,13 +4,15 @@
 <h2 class="mb-4">Proyectos Destacados</h2>
 
     {% for proyecto in projects %}
-    <div class="projects">
-        <h3>{{ proyecto.titulo }}</h3>
-        <p><strong>Rol:</strong> {{ proyecto.rol }}</p>
-        <p><strong>date:</strong> {{ proyecto.date }}</p>
-        <p><strong>Empresa:</strong> {{ proyecto.company }}</p>
-        <p><strong>Descripción:</strong> {{ proyecto.description }}</p>
-        <p><strong>Tecnologías:</strong> {{ proyecto.technologies }}</p>
+    <div class="card mb-4">
+        <div class="card-body">
+            <h3 class="card-title">{{ proyecto.title }}</h3>
+            <p class="card-text"><strong>Rol:</strong> {{ proyecto.rol }}</p>
+            <p class="card-text"><strong>Fecha:</strong> {{ proyecto.date }}</p>
+            <p class="card-text"><strong>Empresa:</strong> {{ proyecto.company }}</p>
+            <p class="card-text"><strong>Descripción:</strong> {{ proyecto.description }}</p>
+            <p class="card-text"><strong>Tecnologías:</strong> {{ proyecto.technologies | join(', ') }}</p>
+        </div>
     </div>
     {% endfor %}
 
