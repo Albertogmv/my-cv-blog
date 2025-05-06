@@ -10,19 +10,28 @@ h2 {
 .card-title {
     color: #666666;
 }
-.card-subtitle{
+
+.card-subtitle {
     color: #3E0097;
 }
-.card-text{
+
+.card-text {
     color: #666666;
 }
-.btn{
+
+.btn {
     background-color: #3E0097;
     color: white;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: white;
     border-color: #3E0097;
+}
+
+.bi {
+    font-size: 1.5rem;
+    color: #6f42c1;
 }
 
 body {
