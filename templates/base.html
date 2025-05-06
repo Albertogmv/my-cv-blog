@@ -20,10 +20,10 @@
                 </nav>
             </div>
             <div class="language-switcher">
-                <a href="{{ url_for(request.endpoint, lang='es') }}" title="Español">
+                <a href="{{ url_for('set_lang', lang='es') }}" title="Español">
                     <img src="https://flagcdn.com/w20/es.png" alt="Español">
                 </a>
-                <a href="{{ url_for(request.endpoint, lang='en') }}" title="English" class="ms-2">
+                <a href="{{ url_for('set_lang', lang='en') }}" title="English" class="ms-2">
                     <img src="https://flagcdn.com/w20/gb.png" alt="English">
                 </a>
             </div>            
