@@ -16,6 +16,14 @@ h2 {
 .card-text{
     color: #666666;
 }
+.btn{
+    background-color: #3E0097;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    border-color: #3E0097;
+}
 
 body {
     background-color: #f8f9fa;
