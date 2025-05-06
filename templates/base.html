@@ -51,8 +51,11 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<footer class="text-center text-muted py-4">
-    &copy; {{menu.footer}}
+<footer class="text-center text-muted py-4 small">
+    <div>&copy; {{ menu.footer }}</div>
+    <div>
+        {{menu.footer_description}} 🐍 <strong>Python</strong>, 🔥 <strong>Flask</strong>, 🧩 <strong>Jinja2</strong> {{menu.footer_description_2}} 🎨 <strong>Bootstrap</strong>. 
+        {{menu.footer_description_3}} <a href="https://github.com/Albertogmv/my-cv-blog" target="_blank" rel="noopener noreferrer">🐱 GitHub</a>.
+    </div>
 </footer>
-
 </html>
