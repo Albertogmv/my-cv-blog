@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block title %}Formación{% endblock %}
+{% block title %}{{ labels.education_title }}{% endblock %}
 {% block content %}
 
-<h2 class="mb-4">Formación</h2>
+<h2 class="mb-4">{{ labels.education_title }}</h2>
 
 {% for item in education[:2] %}
 <div class="card mb-3">
@@ -16,7 +16,7 @@
 </div>
 {% endfor %}
 
-<h2 class="mb-4">Certificaciones</h2>
+<h2 class="mb-4">{{ labels.certification_title }}</h2>
 
 {% for item in education[2:] %}
 <div class="card mb-3">

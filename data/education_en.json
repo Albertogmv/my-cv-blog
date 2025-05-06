@@ -1,47 +1,53 @@
-[
-    {
-        "title": "Master's Degree in Computer Engineering (Distance Education)",
-        "institucion": "University of Seville",
-        "date": "Current - 2026"
+{
+    "labels": {
+        "education_title": "Education",
+        "certification_title": "Certifications"
     },
-    {
-        "title": "Bachelor's Degree in Computer Engineering – Information Technologies",
-        "institucion": "University of Seville",
-        "date": "2013 - 2018"
-    },
-    {
-        "title": "SOLID Principles and Clean Code",
-        "institucion": "Udemy",
-        "date": "04/2025"
-    },
-    {
-        "title": "Advanced Python Programming",
-        "institucion": "Edutin Academy",
-        "date": "03/2025"
-    },
-    {
-        "title": "Redis for Java Developers Certified",
-        "institucion": "Redis",
-        "date": "12/2024"
-    },
-    {
-        "title": "Get Started with Redis Certified",
-        "institucion": "Redis",
-        "date": "12/2024"
-    },
-    {
-        "title": "Java SE 11 Developer 1Z0-819 OCP Course - Part 1",
-        "institucion": "Udemy",
-        "date": "07/2024"
-    },
-    {
-        "title": "Scrum Master Certified",
-        "institucion": "europeanscrum.org",
-        "date": "07/2023"
-    },
-    {
-        "title": "APTIS Certification - Level B2",
-        "institucion": "British Council",
-        "date": "05/2019"
-    }
-]
+    "education": [
+        {
+            "title": "Master's Degree in Computer Engineering (Distance Education)",
+            "institucion": "University of Seville",
+            "date": "Current - 2026"
+        },
+        {
+            "title": "Bachelor's Degree in Computer Engineering – Information Technologies",
+            "institucion": "University of Seville",
+            "date": "2013 - 2018"
+        },
+        {
+            "title": "SOLID Principles and Clean Code",
+            "institucion": "Udemy",
+            "date": "04/2025"
+        },
+        {
+            "title": "Advanced Python Programming",
+            "institucion": "Edutin Academy",
+            "date": "03/2025"
+        },
+        {
+            "title": "Redis for Java Developers Certified",
+            "institucion": "Redis",
+            "date": "12/2024"
+        },
+        {
+            "title": "Get Started with Redis Certified",
+            "institucion": "Redis",
+            "date": "12/2024"
+        },
+        {
+            "title": "Java SE 11 Developer 1Z0-819 OCP Course - Part 1",
+            "institucion": "Udemy",
+            "date": "07/2024"
+        },
+        {
+            "title": "Scrum Master Certified",
+            "institucion": "europeanscrum.org",
+            "date": "07/2023"
+        },
+        {
+            "title": "APTIS Certification - Level B2",
+            "institucion": "British Council",
+            "date": "05/2019"
+        }
+    ]
+}

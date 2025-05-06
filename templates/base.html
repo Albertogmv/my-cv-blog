@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}Mi Blog personal{% endblock %}</title>
@@ -12,21 +12,21 @@
             <div>
                 <h1 class="h4">Alberto Jesús García-Márquez Varela</h1>
                 <nav class="mt-2">
-                    <a href="/">Inicio</a> |
-                    <a href="/about">Sobre mí</a> |
-                    <a href="/projects">Proyectos</a> |
-                    <a href="/experience">Experiencia</a> |
-                    <a href="/education">Formación</a>
+                    <a href="/">{{menu.label_home}}</a> |
+                    <a href="/experience">{{menu.label_experience}}</a> |
+                    <a href="/projects">{{menu.label_projects}}</a> |
+                    <a href="/education">{{menu.label_education}}</a> |
+                    <a href="/about">{{menu.label_about}}</a> |
                 </nav>
             </div>
             <div class="language-switcher">
-                <a href="/es" title="Español">
+                <a href="{{ url_for(request.endpoint, lang='es') }}" title="Español">
                     <img src="https://flagcdn.com/w20/es.png" alt="Español">
                 </a>
-                <a href="/en" title="English" class="ms-2">
+                <a href="{{ url_for(request.endpoint, lang='en') }}" title="English" class="ms-2">
                     <img src="https://flagcdn.com/w20/gb.png" alt="English">
                 </a>
-            </div>
+            </div>            
         </div>
         <hr>
     </header>

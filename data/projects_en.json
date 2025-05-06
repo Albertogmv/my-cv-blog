@@ -1,58 +1,69 @@
-[
-    {
-        "title": "Cybersecurity-focused solutions – INCIBE.",
+{
+    "labels": {
+      "projects_title": "Featured Projects",
+      "label_rol": "Role",
+      "label_date": "Date",
+      "label_company": "Company",
+      "label_description": "Description",
+      "label_technologies": "Technologies"
+    },
+    "projects": [
+      {
+        "title": "Cybersecurity Solutions – INCIBE",
         "rol": "Fullstack Developer",
         "date": "01/2023 - 02/2025",
         "company": "Mnemo, client INCIBE (Spanish National Cybersecurity Institute).",
-        "description": "I worked as a fullstack developer in the field of cybersecurity for the Spanish National Cybersecurity Institute (INCIBE), through the consulting firm Mnemo. I contributed to the design, development, and maintenance of secure web applications focused on threat intelligence and cybersecurity awareness. My work included backend development with Java (Spring Boot, JPA, Hibernate) and Python (FastAPI), as well as frontend development with Angular and TypeScript. I implemented RESTful APIs, CI/CD pipelines, and participated in agile sprints, with a strong focus on code quality and security. The role required high attention to detail due to the critical nature of the services provided to the public sector and Spanish citizens.",
+        "description": "Worked as a fullstack developer in the cybersecurity field for INCIBE, through the consulting firm Mnemo. Contributed to the design, development, and maintenance of secure web applications focused on threat intelligence and cybersecurity awareness. My tasks included backend development with Java (Spring Boot, JPA, Hibernate) and Python (FastAPI), as well as frontend work using Angular and TypeScript. I implemented RESTful APIs, CI/CD pipelines, and participated in agile sprints, with a strong focus on code quality and security. This role required high attention to detail due to the critical nature of the public services involved.",
         "technologies": ["Java", "Spring Boot", "JPA", "Hibernate", "Python", "FastAPI", "Angular", "TypeScript", "PostgreSQL", "MongoDB", "Elasticsearch", "Prometheus", "Grafana", "Git", "Jenkins", "SonarQube", "Docker", "Scrum"]
-    },
-    {
-        "title": "Eat-Me: Augmented Reality Menu Application",
+      },
+      {
+        "title": "Eat-Me: Augmented Reality Menu App",
         "rol": "Application Designer and Developer",
         "date": "12/2020 - 12/2022",
         "company": "MEP-Projects",
-        "description": "I designed and developed Eat-Me, an augmented reality application that allows restaurants to showcase their menu dishes innovatively using the customer's mobile device. By pointing at a visual marker on the table, diners can view realistic 3D models of the dishes before placing their order. The project was created for the HORECA sector and received recognition from the Basque Culinary Center. The app was published on Google Play and the App Store, with backend services and model hosting managed through AWS.",
+        "description": "Designed and developed Eat-Me, an augmented reality application that allows restaurants to showcase their menu items in an innovative way using the customer's mobile phone. By pointing to a visual marker on the table, diners can view realistic 3D models of the dishes before ordering. The project was created for the HORECA sector and received recognition from the Basque Culinary Center. The app was published on Google Play and the App Store, with backend services and model hosting managed via AWS.",
         "technologies": ["Unity", "C#", "Vuforia", "MongoDB", "AWS (S3)", "Augmented Reality", "Google Play", "App Store"]
-    },
-    {
-        "title": "PRISMA – Scientific Research Platform of the University of Seville",
-        "rol": "Design and development of automated data extraction and cleaning processes with Python. Web development of the frontend and support for integrating scientific data from PDI.",
+      },
+      {
+        "title": "PRISMA – Scientific Research Platform at the University of Seville",
+        "rol": "Data extraction and cleaning automation with Python. Frontend web development and integration support for scientific research data.",
         "date": "12/2019 - 12/2020",
         "company": "Bibliometrics Unit, University of Seville",
-        "description": "I collaborated in the development and improvement of the PRISMA platform (https://prisma.us.es/), a web application that centralizes and organizes the scientific production of the PDI (Teaching and Research Staff) at the University of Seville. My tasks included data collection, cleaning, and structuring from multiple sources and formats (CSV, Excel, XML, JSON), as well as automating the extraction of additional data using web scraping techniques with Python. I used Pandas to structure the data for easier subsequent analysis. I also participated in implementing the frontend using HTML5, JavaScript, and PHP, creating an accessible interface that allows users to query publications, theses, projects, and associated metrics. This tool facilitates the generation of standardized CVs (CVN/CVA) and improves the visibility of scientific production in calls like FECYT, National Plan, or Carlos III Institute.",
+        "description": "Collaborated in the development and enhancement of PRISMA (https://prisma.us.es/), a web platform that centralizes and organizes the scientific output of the university’s faculty and researchers. Tasks included collecting, cleaning, and structuring data from multiple sources and formats (CSV, Excel, XML, JSON), as well as automating the extraction of additional data using web scraping with Python. Used Pandas to prepare structured datasets for further analysis. Contributed to frontend implementation using HTML5, JavaScript, and PHP, building an accessible interface for querying publications, theses, projects, and associated metrics. The platform supports CV generation (CVN/CVA) and increases the visibility of scientific work in funding applications (FECYT, National Plan, Instituto Carlos III).",
         "technologies": ["Python", "Pandas", "Web Scraping", "HTML5", "JavaScript", "PHP", "CSV", "Excel", "JSON", "XML"]
-    },
-    {
-        "title": "Automation of Working Hours Registration for Employees",
+      },
+      {
+        "title": "Automated Work Hour Tracking System",
         "rol": "Application Designer and Developer",
         "date": "03/2021 - 09/2022",
         "company": "MEP-Projects",
-        "description": "I developed software that allows companies to keep an accurate and automated record of working hours for each employee, both in-office and remote work. The tool includes features for assigning hours to specific tasks or projects, facilitating up-to-date cost center tracking based on time spent by the team. This system helps improve operational efficiency and internal financial control.",
+        "description": "Developed software that allows companies to maintain accurate and automated tracking of employee working hours, both onsite and remotely. The tool includes functionality for assigning hours to specific tasks or projects, enabling up-to-date cost center tracking based on time allocation. This system helps improve operational efficiency and internal financial control.",
         "technologies": ["Python", "Tkinter", "SQLite", "Automation", "Time Management", "Cost Tracking", "Desktop App"]
-    },
-    {
-        "title": "Automation Script for Instagram and Social Media Management",
+      },
+      {
+        "title": "Instagram Automation Script and Social Media Management Tool",
         "rol": "Application Designer and Developer",
         "date": "06/2021 - 12/2021",
         "company": "MEP-Projects",
-        "description": "An innovative tool designed to support Community Management teams, automating content creation and social media management on Instagram. The script generates personalized content using advanced algorithms that consider demographic data and audience preferences. It creates posts, text, and visual proposals aligned with the brand identity. It also includes features like automatic messaging, scheduled replies, and a publishing calendar for efficient planning.",
-        "technologies": ["Python", "Tkinter", "Selenium", "BeautifulSoup", "Pandas", "Instagram API", "Natural Language Processing (NLP)", "Task Scheduling Libraries (like APScheduler)", "JSON", "Automation Scripts"]
-    },
-    {
-        "title": "Automation of Functional Testing and Security Audits for Banking Entities",
+        "description": "Innovative tool designed to support Community Management teams by automating content creation and social media management for Instagram. The script generates personalized content using advanced algorithms that consider audience demographics and preferences. It creates posts, captions, and visual proposals aligned with brand identity. It also includes features like automatic messaging, scheduled replies, and a publication calendar for efficient planning.",
+        "technologies": ["Python", "tkinter", "Selenium", "BeautifulSoup", "Pandas", "Instagram API", "Natural Language Processing (NLP)", "APScheduler", "JSON", "Automation Scripts"]
+      },
+      {
+        "title": "Functional Test Automation and Security Audits for Banks",
         "rol": "Quality Analyst Tester",
         "date": "07/2018 - 03/2019",
         "company": "Sopra Steria, SA",
-        "description": "As a QA Tester at Sopra Steria, I participated in projects for various banking entities, designing and executing functional test cases, developing process automation scripts, and conducting security audits through manual testing and automated scans. I contributed to ensuring software quality, improving testing efficiency, and identifying critical vulnerabilities in banking systems.",
-        "technologies": ["HP ALM", "Jira", "Selenium", "Python", "TestLink", "Postman", "OWASP ZAP", "Agile Methodologies (Scrum)", "Functional Testing", "Test Automation", "Security Scanners"]
-    },
-    {
-        "title": "Support Project for Systemic Treatment and Radiotherapy Dosage",
+        "description": "As a QA Tester at Sopra Steria, I worked on banking projects designing and executing functional test cases, developing process automation scripts, and conducting security audits through manual testing and automated scans. Contributed to ensuring software quality, improving testing efficiency, and identifying critical vulnerabilities in banking systems.",
+        "technologies": ["HP ALM", "Jira", "Selenium", "Python", "TestLink", "Postman", "OWASP ZAP", "Scrum", "Functional Testing", "Test Automation", "Security Scanning"]
+      },
+      {
+        "title": "Support Project for Systemic Treatment and Radiotherapy Dosing",
         "rol": "Research Intern",
         "date": "04/2018 - 06/2018",
         "company": "Virgen del Rocío University Hospital, Seville",
-        "description": "Participation in a project funded by the Carlos III Health Institute focused on treatments for lung cancer patients. Collaboration in studying and analyzing hospital data related to patients undergoing chemotherapy and radiotherapy. Reorganization of a previously disorganized database from free-text to a well-designed relational model. Data organization to allow more efficient queries, facilitating clinical studies and patient follow-up. Application of basic data mining techniques in the hospital environment. Development of a WordPress platform for centralized management of content from various innovation group projects.",
+        "description": "Participated in a project funded by the Instituto de Salud Carlos III focused on treatments for lung cancer patients. Assisted in the study and analysis of hospital data related to chemotherapy and radiotherapy patients. Reorganized an unstructured free-text database into a well-designed relational model. Structured the data to allow for more efficient queries, facilitating clinical studies and patient follow-up. Applied basic data mining techniques in a hospital setting. Also developed a WordPress platform for centralized content management of various innovation group projects.",
         "technologies": ["MySQL", "SQL", "Python", "BeautifulSoup", "Selenium", "Pandas", "PHP", "HTML", "JavaScript", "CSS", "jQuery", "Bootstrap", "Apache HTTP Server", "WordPress", "Data Mining"]
-    }
-]
+      }
+    ]
+  }
+  

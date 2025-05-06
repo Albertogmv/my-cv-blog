@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% block title %}Experiencia Laboral{% endblock %}
+{% block title %}{{ labels.experience_title }}{% endblock %}
 {% block content %}
-<h2 class="mb-4">Experiencia Laboral</h2>
+<h2 class="mb-4">{{ labels.experience_title }}</h2>
 
 {% for trabajo in experience %}
 <div class="card mb-4">

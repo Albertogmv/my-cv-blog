@@ -1,84 +1,89 @@
-[
-  {
-    "empresa": "Mnemo",
-    "company": "Madrid, Spain",
-    "puesto": "Software Engineer",
-    "periodo": "01/2023 - 02/2025",
-    "description": [
-      "Development of REST APIs with Java (Spring Boot) and Python (FastAPI/Django): Experience in designing, developing, and maintaining scalable APIs.",
-      "Frontend Development: Skills with Angular, TypeScript, and Node.js, with a focus on user experience and security.",
-      "Unit and Functional Testing: Experience in creating unit tests with JUnit 5 and Pytest, and functional tests with Cucumber.",
-      "Documentation with Swagger: Experience in creating API documentation using Swagger (.yml files).",
-      "Automation with Ansible: Automating build, test, audit, and deployment processes to improve efficiency.",
-      "CI/CD with Jenkins: Managing continuous integration and delivery processes.",
-      "Quality and security tools: Familiarity with SonarQube and Dependency-Track for vulnerability analysis, and with Elasticsearch for advanced search and analysis capabilities.",
-      "Monitoring & Logging: Prometheus, Grafana, or ELK stack for system observability.",
-      "Project management with Jira: Experience in task tracking and team collaboration.",
-      "Version control: Proficiency with SVN and Git for collaborative projects.",
-      "Agile methodologies: Use of Scrum throughout all phases: planning, goal definition, Sprint execution, daily standups, and retrospectives."
-    ]
+{
+  "labels": {
+    "experience_title": "Professional Experience"
   },
-  {
-    "empresa": "MEP-Projects",
-    "company": "Seville, Spain",
-    "puesto": "Lead Software Engineer",
-    "periodo": "12/2020 - 12/2022",
-    "description": [
-      "Full lifecycle software solution development, from design, development, and implementation to delivery and maintenance, ensuring alignment with client requirements.",
-      "Development of cross-platform applications using Unity and Vuforia, programmed in C#, with API integration and AWS usage for model storage and management.",
-      "Design and integration of REST APIs using Java (Spring Boot) and Python (FastAPI/Django).",
-      "Automation of tasks and processes with Python, including web scraping (BeautifulSoup, Selenium), data manipulation (Pandas), and backend logic.",
-      "Contribution to improving organizational processes through digital tools and automation with Python. Developed desktop applications for HR and the company's CEO focused on managing hours, costs, and benefits in projects. Additionally, created an Instagram bot that recommended posts for businesses based on collections obtained through web scraping techniques on popular accounts.",
-      "Application of Agile methodologies (Scrum) throughout the entire development cycle.",
-      "Creation, configuration, hosting, maintenance, and updates of websites using WordPress.",
-      "Database management with MySQL and SQL language.",
-      "Basic graphic design knowledge for web and application interfaces, including the use of Figma for interface prototyping and user flow design.",
-      "Technical support and collaboration with team members.",
-      "Experience in remote work, with weekly coordination meetings.",
-      "General knowledge of networks and infrastructure."
-    ]
-  },
-  {
-    "empresa": "University of Seville",
-    "company": "Seville, Spain",
-    "puesto": "Software Engineer (Research Support Technician)",
-    "periodo": "12/2019 - 12/2020",
-    "description": [
-      "Data collection, cleaning, and formatting from various sources for storage in a database.",
-      "Web scraping (BeautifulSoup, Selenium), data manipulation (Pandas), and backend logic.",
-      "Database management with MySQL and SQL language.",
-      "Development using programming and markup languages: PHP, JavaScript, HTML, and Python.",
-      "Web design using JQuery, Bootstrap, and CSS.",
-      "Web server management with Apache HTTP.",
-      "Basic knowledge in handling and managing web services.",
-      "Knowledge of web application deployment.",
-      "Knowledge of web security."
-    ]
-  },
-  {
-    "empresa": "Sopra Steria",
-    "company": "Seville, Spain",
-    "puesto": "QA Tester",
-    "periodo": "06/2018 - 03/2019",
-    "description": [
-      "Design of functional test cases.",
-      "Execution of manual and automated test cases.",
-      "Development tasks for process automation.",
-      "Security audits through manual tests and security scanners.",
-      "Use of management tools such as HP Application Lifecycle Management or Jira.",
-      "Use of Agile methodologies."
-    ]
-  },
-  {
-    "empresa": "Virgen del Rocío University Hospital",
-    "company": "Seville, Spain",
-    "puesto": "Researcher (Internship)",
-    "periodo": "04/2018 - 06/2018",
-    "description": [
-      "Internship carried out as part of the project funded by the Carlos III Health Institute called 'Support System for Systemic Treatment and Radiotherapy Dosage in Lung Cancer Patients.'",
-      "Familiarization with data and application of data mining algorithms in a hospital setting.",
-      "Tasks related to data analysis and processing of patients undergoing chemotherapy treatments.",
-      "Development of a WordPress platform for managing content of various projects within the innovation group."
-    ]
-  }
-]
+  "experience": [
+    {
+      "empresa": "Mnemo",
+      "company": "Madrid, Spain",
+      "puesto": "Software Engineer",
+      "periodo": "01/2023 - 02/2025",
+      "description": [
+        "Development of REST APIs with Java (Spring Boot) and Python (FastAPI/Django): Experience in designing, developing, and maintaining scalable APIs.",
+        "Frontend Development: Skills with Angular, TypeScript, and Node.js, with a focus on user experience and security.",
+        "Unit and functional testing: Experience in creating unit tests with JUnit 5 and Pytest, and functional tests with Cucumber.",
+        "Documentation with Swagger: Experience in creating API documentation using Swagger (.yml files).",
+        "Automation with Ansible: Automation of build, testing, audit, and deployment processes to improve efficiency.",
+        "CI/CD with Jenkins: Management of continuous integration and delivery processes.",
+        "Quality and security tools: Familiarity with SonarQube and Dependency-Track for vulnerability analysis, and with Elasticsearch for advanced search and analytics capabilities.",
+        "Monitoring & Logging: Prometheus, Grafana, or ELK stack for system observability.",
+        "Project management with Jira: Experience in task tracking and team collaboration.",
+        "Version control: Proficiency with SVN and Git for collaborative projects.",
+        "Agile methodologies: Use of Scrum in all phases: planning, goal definition, Sprint execution, daily meetings (Daily Standups), and retrospectives."
+      ]
+    },
+    {
+      "empresa": "MEP-Projects",
+      "company": "Seville, Spain",
+      "puesto": "Lead Software Engineer",
+      "periodo": "12/2020 - 12/2022",
+      "description": [
+        "Complete development cycle of software solutions, from design, development, and implementation to delivery and maintenance, ensuring alignment with client requirements.",
+        "Development of cross-platform applications using Unity and Vuforia, programmed in C#, with API integration and AWS for storage and model management.",
+        "Design and integration of REST APIs using Java (Spring Boot) and Python (FastAPI/Django).",
+        "Task and process automation with Python, including web scraping (BeautifulSoup, Selenium), data manipulation (Pandas), and backend logic.",
+        "Contributed to organizational process improvement using digital tools and automation with Python. Developed desktop applications for HR and the CEO of the company focused on managing hours, costs, and benefits in projects. Additionally, created an Instagram bot that recommended posts to companies, based on collections obtained through web scraping techniques from popular accounts.",
+        "Application of agile methodologies (Scrum) throughout the entire development cycle.",
+        "Creation, configuration, hosting, maintenance, and updating of websites with WordPress.",
+        "Database management with MySQL and SQL language.",
+        "Basic knowledge of graphic design for web and application interfaces, including the use of Figma for prototyping interfaces and user flows.",
+        "Technical support and collaboration with team members.",
+        "Experience with remote work, with weekly coordination meetings.",
+        "General knowledge of networks and infrastructure."
+      ]
+    },
+    {
+      "empresa": "Universidad de Sevilla",
+      "company": "Seville, Spain",
+      "puesto": "Software Engineer (Research Support Technician)",
+      "periodo": "12/2019 - 12/2020",
+      "description": [
+        "Data collection, cleaning, and formatting from various sources for subsequent storage in a database.",
+        "Web scraping (BeautifulSoup, Selenium), data manipulation (Pandas), and backend logic.",
+        "Database management with MySQL and SQL language.",
+        "Development using programming and markup languages: PHP, JavaScript, HTML, and Python.",
+        "Web design using JQuery, Bootstrap, and CSS.",
+        "Web server management with HTTP Apache.",
+        "Basic knowledge in handling and managing web services.",
+        "Knowledge in web application deployment.",
+        "Knowledge in web security."
+      ]
+    },
+    {
+      "empresa": "Sopra Steria",
+      "company": "Seville, Spain",
+      "puesto": "QA Tester",
+      "periodo": "06/2018 - 03/2019",
+      "description": [
+        "Design of functional test cases.",
+        "Execution of manual and automated test cases.",
+        "Development tasks for process automation.",
+        "Security audits through manual testing and security scanners.",
+        "Use of management tools such as HP Application Lifecycle Management or Jira.",
+        "Use of agile methodologies."
+      ]
+    },
+    {
+      "empresa": "Hospital Universitario Virgen del Rocío",
+      "company": "Seville, Spain",
+      "puesto": "Research Intern",
+      "periodo": "04/2018 - 06/2018",
+      "description": [
+        "Internship developed under the project funded by the Carlos III Health Institute called 'Support System for Systemic Treatment and Dosage of Radiotherapy in Lung Cancer Patients'.",
+        "Familiarization with the data and application of data mining algorithms in the hospital environment.",
+        "Tasks related to data analysis and processing of patients undergoing chemotherapy treatments.",
+        "Development of a WordPress platform for content management of various projects belonging to the innovation group."
+      ]
+    }
+  ]
+}

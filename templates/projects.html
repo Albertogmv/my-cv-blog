@@ -1,19 +1,19 @@
 {% extends "base.html" %}
-{% block title %}Proyectos{% endblock %}
+{% block title %}{{ labels.projects_title }}{% endblock %}
 {% block content %}
-<h2 class="mb-4">Proyectos Destacados</h2>
+<h2 class="mb-4">{{ labels.projects_title }}</h2>
 
-    {% for proyecto in projects %}
-    <div class="card mb-4">
-        <div class="card-body">
-            <h3 class="card-title">{{ proyecto.title }}</h3>
-            <p class="card-text"><strong>Rol:</strong> {{ proyecto.rol }}</p>
-            <p class="card-text"><strong>Fecha:</strong> {{ proyecto.date }}</p>
-            <p class="card-text"><strong>Empresa:</strong> {{ proyecto.company }}</p>
-            <p class="card-text"><strong>Descripción:</strong> {{ proyecto.description }}</p>
-            <p class="card-text"><strong>Tecnologías:</strong> {{ proyecto.technologies | join(', ') }}</p>
-        </div>
+{% for proyecto in projects %}
+<div class="card mb-4">
+    <div class="card-body">
+        <h3 class="card-title">{{ proyecto.title }}</h3>
+        <p class="card-text"><strong>{{ labels.label_rol }}:</strong> {{ proyecto.rol }}</p>
+        <p class="card-text"><strong>{{ labels.label_date }}:</strong> {{ proyecto.date }}</p>
+        <p class="card-text"><strong>{{ labels.label_company }}:</strong> {{ proyecto.company }}</p>
+        <p class="card-text"><strong>{{ labels.label_description }}:</strong> {{ proyecto.description }}</p>
+        <p class="card-text"><strong>{{ labels.label_technologies }}:</strong> {{ proyecto.technologies | join(', ') }}</p>
     </div>
-    {% endfor %}
+</div>
+{% endfor %}
 
 {% endblock %}

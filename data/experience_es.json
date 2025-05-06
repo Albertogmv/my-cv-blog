@@ -1,4 +1,8 @@
-[
+{
+  "labels": {
+    "experience_title": "Experiencia Profesional"
+  },
+  "experience": [
     {
       "empresa": "Mnemo",
       "company": "Madrid, España",
@@ -79,8 +83,7 @@
         "Familiarización con los datos y aplicación de algoritmos de minería de datos en el entorno hospitalario.",
         "Tareas relacionadas con el análisis de datos y el procesamiento de pacientes sometidos a tratamientos de quimioterapia.",
         "Desarrollo de una plataforma WordPress para la gestión de contenido de diversos proyectos pertenecientes al grupo de innovación."
-
       ]
     }
   ]
-  
+}
