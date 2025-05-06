@@ -2,7 +2,8 @@
 {% block title %}{{home.label_home}}{% endblock %}
 {% block content %}
 <h2>{{home.label_title}}</h2>
+<br>
 {% for paragraph in home.label_description.split('\n') %}
-<p>{{ paragraph }}</p>
+<p class="card-text">{{ paragraph }}</p>
 {% endfor %}
 {% endblock %}

@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}Mi Blog personal{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <header class="container py-3">
-        <div class="d-flex justify-content-between align-items-center">
+    <header class="container py-4 my-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
             <div>
-                <h1 class="h4">Alberto Jesús García-Márquez Varela</h1>
-                <nav class="mt-2">
-                    <a href="/">{{menu.label_home}}</a> |
-                    <a href="/experience">{{menu.label_experience}}</a> |
-                    <a href="/projects">{{menu.label_projects}}</a> |
-                    <a href="/education">{{menu.label_education}}</a> |
-                    <a href="/about">{{menu.label_about}}</a> |
+                <h1>Alberto Jesús García-Márquez Varela</h1>
+                <nav class="d-flex flex-wrap align-items-center">
+                    <a href="/">{{menu.label_home}}</a>
+                    <a href="/experience">{{menu.label_experience}}</a>
+                    <a href="/projects">{{menu.label_projects}}</a>
+                    <a href="/education">{{menu.label_education}}</a>
+                    <a href="/about">{{menu.label_about}}</a>
                 </nav>
             </div>
-            <div class="language-switcher">
+            <div class="language-switcher mt-3 mt-md-0">
                 <a href="{{ url_for('set_lang', lang='es') }}" title="Español">
                     <img src="https://flagcdn.com/w20/es.png" alt="Español">
                 </a>
@@ -28,14 +30,16 @@
                 </a>
             </div>            
         </div>
-        <hr>
     </header>
 
-    <main class="container">
+    <main class="container mb-5">
         {% block content %}{% endblock %}
     </main>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<footer class="text-center text-muted py-4">
+    &copy; 2025 Alberto Jesús García-Márquez Varela · Todos los derechos reservados.
+</footer>
 </html>

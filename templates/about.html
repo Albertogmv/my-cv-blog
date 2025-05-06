@@ -3,11 +3,11 @@
 {% block content %}
 <h2 class="mb-4">{{about.label_title}}</h2>
 
-<p>{{about.label_description}}</p>
+<p class="card-text">{{about.label_description}}</p>
 
   <div class="mt-4 text-center">
     <img src="{{ url_for('static', filename='img/Dante.jpg') }}" alt="Mi perro Dante" style="max-width: 400px;">
-    <p class="mt-2">{{about.label_photo_description}}</p>
+    <p class="card-text mt-2">{{about.label_photo_description}}</p>
   </div>
 
 {% endblock %}

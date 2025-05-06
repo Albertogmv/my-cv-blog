@@ -12,7 +12,7 @@
         "title": "Cybersecurity Solutions – INCIBE",
         "rol": "Fullstack Developer",
         "date": "01/2023 - 02/2025",
-        "company": "Mnemo, client INCIBE (Spanish National Cybersecurity Institute).",
+        "company": "Mnemo, client INCIBE (Spanish National Cybersecurity Institute)",
         "description": "Worked as a fullstack developer in the cybersecurity field for INCIBE, through the consulting firm Mnemo. Contributed to the design, development, and maintenance of secure web applications focused on threat intelligence and cybersecurity awareness. My tasks included backend development with Java (Spring Boot, JPA, Hibernate) and Python (FastAPI), as well as frontend work using Angular and TypeScript. I implemented RESTful APIs, CI/CD pipelines, and participated in agile sprints, with a strong focus on code quality and security. This role required high attention to detail due to the critical nature of the public services involved.",
         "technologies": ["Java", "Spring Boot", "JPA", "Hibernate", "Python", "FastAPI", "Angular", "TypeScript", "PostgreSQL", "MongoDB", "Elasticsearch", "Prometheus", "Grafana", "Git", "Jenkins", "SonarQube", "Docker", "Scrum"]
       },
